@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     let message7 = String("My sources say no")
     let message8 = String("Very doubtful")
     
+        let fortune = Int.random(in: 1...8)
     @IBOutlet weak var FortuneBox: UILabel!
     @IBOutlet weak var shake: UIButton!
-    let fortune = Int.random(in: 1...8)
     
     override func viewDidLoad() {
         super.viewDidLoad()
